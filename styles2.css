@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto&family=Sacramento&family=Ubuntu&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    caret-color: transparent;
+}
+body{
+    background: url("assets/Kitchen.jpg")rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.head{
+    color: white;
+    max-width: fit-content;
+    margin: 1vw;
+    
+}
+h1{
+    font-size: 6vw;
+    font-family: 'Sacramento', cursive;
+    color: white;
+    text-shadow: -2px -1px 0 #ff0000, 2px -1px 0 #ff0000, -2px 1px 0 #ff0000, 2px 1px 0 #ff0000;    
+    margin-bottom: -9vw;
+}
+.data{
+    background-color: rgba(128, 0, 70, 0.6);
+    border-radius: 10px;
+    border: 3px solid white;
+    height: 15vw;
+    width: 15vw;
+    padding: 2vw;
+    margin: 2vw;
+}
+.window{
+    height: 15vw;
+    width: 15vw;
+}
+.data div{
+    margin: auto;
+    font-weight: 400;
+    font-size: 2vw;
+    color: white;
+}
+span{
+    color: rgb(243, 55, 55);
+    font-weight: 600;
+}
+.playground{
+    display: grid;
+    grid-template-columns: repeat(6, 6vw);
+    grid-template-rows: repeat(6, 6vw);
+    margin-right: 2vw;
+    gap: 0.5vw;
+}
+.playground img{
+    background-color: rgb(231, 231, 231);
+    border: 2px solid rgb(128, 0, 70);
+    border-radius: 10px;
+    margin: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6.5vw;
+    width: 6.5vw;
+    padding: 0.5vw;
+
+}
+#replay img{
+    width: 5vw;
+}
+.game-arena{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.window img{
+    width:  15vw;
+    border: solid 10px white;
+    border-radius: 20px;
+}
+.up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#replay{
+    background-color: rgba(35, 189, 73, 0.6);
+    padding: 1vw 2vw;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 3vw;
+    color: wheat;
+    max-width: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#replay:hover{
+    cursor: pointer;
+}
+.playground img:hover{
+    cursor: pointer;
+}

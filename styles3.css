@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto&family=Sacramento&family=Ubuntu&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    caret-color: transparent;
+}
+body{
+    background: url("assets/Kitchen.jpg")rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.screen{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 2vw 3vw;
+}
+
+.result-card{
+    background-color: rgba(128, 0, 70, 0.6);
+    border-radius: 10px;
+    border: 3px solid white;
+    padding: 1vw;
+    margin: 1vw;
+    width: 30vw;
+}
+.sad img{
+    border: 10px solid white;
+}
+.tiffi-image{
+    max-width: fit-content;
+    margin: auto;
+}
+.tiffi-image img{
+    width: 15vw;
+}
+.result-status{
+    text-align: center;
+    font-size: 4vw;
+}
+.result-status h1{    
+    font-family: 'Sacramento', cursive;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px -1px 0 #ff0000, 2px -1px 0 #ff0000, -2px 1px 0 #ff0000, 2px 1px 0 #ff0000;  
+}
+.your-score{
+    text-align: center;
+}
+.your-score h3{
+    color: white;
+    font-size: 2vw;
+}
+#score{
+    color: rgb(129, 22, 161);
+    font-size: 5vw;
+    text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
+}
+.guest img{
+    width: 25vw;
+}
+.guest:hover{
+    cursor: pointer;
+}
+#replay2{
+    background-color: rgba(35, 189, 73, 0.6);
+    padding: 1vw 2vw;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 2vw;
+    color: wheat;
+    max-width: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#replay2:hover{
+    cursor: pointer;
+}
+#replay2 img{
+    width: 3vw;
+}
+#remarks{
+    font-size: 1vw;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0.2vw;
+}
