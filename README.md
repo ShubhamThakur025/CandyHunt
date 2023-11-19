@@ -9,3 +9,4 @@ CandyHunt is a creation that draws inspiration from various sources, including C
 of their respective owners. All rights to the original images and concepts are acknowledged, and CandyHunt is intended for entertainment purposes only.
 
 ## Enjoy it here:
+https://shubhamthakur025.github.io/CandyHunt/
